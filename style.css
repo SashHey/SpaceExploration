@@ -1,26 +1,50 @@
 body {
-    color: #A6B494;
-    background-image: url("Images/bg.webp");
-    background-size: cover;
+    /* removing white border from around the hero div */
+    margin: 0;
+    /* setting the page's default text colour to white */
+    color: white; 
     text-align: center;
-    font-family: "Space Mono", monospace;
-    text-shadow: 6px -4px 0px rgba(87,132,46,0.5);
+    font-family: "Space Mono", monospace;   
 }
 
-.btn {
-    padding: 5px 10px;
-    background: none;
-    border: none;
-    color: #A6B494;
-    font-family: inherit;
-    text-shadow: inherit;
-    font-weight: bold;
-}
-
-.underline {
-    border-bottom: 3px solid white;
+#hero {
+    background-image: url("Images/bg.webp");
+    /* setting the background to cover the whole object and adjust in size accordingly */
+    background-size: cover;
+    /* setting the padding between the top of the div and the top most element and the bottom of the div and the bottom most element */
+    padding: 50px 0 100px 0;
 }
 
 #logo {
     width: 100px;
+}
+
+#heading {
+    /* adding black border/shadow around the text */
+    text-shadow: 3px 3px 5px black;
+}
+
+.underline {
+    /* adding an underline to the text */
+    border-bottom: 3px solid white;
+}
+
+.btn {
+    /* setting button size relative to the text */
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    /* setting text colour to white */
+    color: white;
+    /* inheriting the font assigned in the body */
+    font-family: inherit;
+    text-shadow: 3px 3px 5px black;
+    font-weight: bold;
+}
+
+.tnc {
+    /* setting the text colour to black */
+    color: black;
+    /* overriding the text shadow applied to the entire body and all its elements */
+    text-shadow: none;
 }
