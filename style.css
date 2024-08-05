@@ -1,17 +1,20 @@
 body {
-    color: white;
-    background-image: url("Images/space.jpg");
+    color: #A6B494;
+    background-image: url("Images/bg.webp");
     background-size: cover;
     text-align: center;
     font-family: "Space Mono", monospace;
+    text-shadow: 6px -4px 0px rgba(87,132,46,0.5);
 }
 
 .btn {
     padding: 5px 10px;
-    background: black;
+    background: none;
     border: none;
-    color: white;
+    color: #A6B494;
     font-family: inherit;
+    text-shadow: inherit;
+    font-weight: bold;
 }
 
 .underline {
